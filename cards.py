@@ -27,6 +27,7 @@ class Deck:
 
 
     def draw_card(self, index):
+        print(f"{Back.RED }you took {self.cards[index]}")
         self.cards.pop(index)
 
 
